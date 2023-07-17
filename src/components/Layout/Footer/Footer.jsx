@@ -13,19 +13,24 @@ const Footer = () => {
         <VStack alignItems={['center', 'flex-start']} width={'full'}>
           <Heading children="All Rights Reserved" color={'white'} />
           <Heading color={'yellow.400'} fontFamily={'body'} size={'sm'}>
-            <a href="https://github.com/nishant-raj26" target={'_blank'}>
+            <a href="https://github.com/nishant-raj26" target={'_blank'} rel="noreferrer">
               @Nishant Raj
             </a>
           </Heading>
         </VStack>
-        <HStack spacing={['2', '10']} justifyContent={'center'} color={'white'} fontSize={'50'} >
-          <a href="https://www.youtube.com" target={'_blank'}>
+        <HStack
+          spacing={['2', '10']}
+          justifyContent={'center'}
+          color={'white'}
+          fontSize={'50'}
+        >
+          <a href="https://www.youtube.com" target={'blank'}>
             <TiSocialYoutubeCircular />
           </a>
-          <a href="https://www.instagram.com" target={'_blank'}>
+          <a href="https://www.instagram.com" target={'blank'}>
             <TiSocialInstagramCircular />
           </a>
-          <a href="https://github.com/nishant-raj26" target={'_blank'}>
+          <a href="https://github.com/nishant-raj26" target={'blank'}>
             <DiGithub />
           </a>
         </HStack>
