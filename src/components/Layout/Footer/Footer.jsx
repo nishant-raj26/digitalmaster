@@ -1,4 +1,4 @@
-import { Box, HStack, Heading, Link, Stack, VStack } from '@chakra-ui/react';
+import { Box, HStack, Heading, Stack, VStack } from '@chakra-ui/react';
 import React from 'react';
 import {
   TiSocialYoutubeCircular,
@@ -13,7 +13,11 @@ const Footer = () => {
         <VStack alignItems={['center', 'flex-start']} width={'full'}>
           <Heading children="All Rights Reserved" color={'white'} />
           <Heading color={'yellow.400'} fontFamily={'body'} size={'sm'}>
-            <a href="https://github.com/nishant-raj26" target={'_blank'} rel="noreferrer">
+            <a
+              href="https://github.com/nishant-raj26"
+              target={'_blank'}
+              rel="noreferrer"
+            >
               @Nishant Raj
             </a>
           </Heading>

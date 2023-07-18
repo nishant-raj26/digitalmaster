@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const ForgetPassword = () => {
   const [email, setEmail] = useState('');
   return (
-    <Container py={'16'} height={'89vh'}  >
+    <Container py={'16'} height={'89vh'}>
       <form action="">
         <Heading
           children="Forget Password"
@@ -21,7 +21,9 @@ const ForgetPassword = () => {
             type={'email'}
             focusBorderColor="yellow.500"
           />
-          <Button type='submit' width={'full'} colorScheme='yellow'>Send Reset Link</Button>
+          <Button type="submit" width={'full'} colorScheme="yellow">
+            Send Reset Link
+          </Button>
         </VStack>
       </form>
     </Container>

@@ -30,7 +30,7 @@ const Register = () => {
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [imagePrev, setImagePrev] = useState();
-  const [image, setImage] = useState('')
+  const [image, setImage] = useState('');
 
   const changeImageHandler = e => {
     const file = e.target.files[0];
@@ -39,7 +39,7 @@ const Register = () => {
     reader.readAsDataURL(file);
     reader.onloadend = () => {
       setImagePrev(reader.result);
-      setImage(file)
+      setImage(file);
     };
   };
   return (
