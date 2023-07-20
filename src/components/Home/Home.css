@@ -36,20 +36,20 @@
 }
 
 @media screen and (max-width: 600px) {
-  .container2 {
-    height: unset;
-    padding: 4vh 0;
-  }
-  .container2 video {
-    width: 100%;
-  }
+    .container2{
+        height: unset;
+        padding: 4vh 0;
+    }
+    .container2 video {
+        width: 100%;
+    }    
 }
 
-.course {
+.course{
   width: 250px;
   margin-bottom: 1rem;
   transition: all 0.5s;
 }
-.course:hover {
-  transform: translateY(-10px);
+.course:hover{
+  transform: translateY(-10px)
 }
